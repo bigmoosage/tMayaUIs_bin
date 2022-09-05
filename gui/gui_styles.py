@@ -31,7 +31,7 @@ class Style:
 
             ptr = omui.MQtUtil.findControl(widget)
 
-            self.widget = wrapInstance(long(ptr), QWidget)
+            self.widget = wrapInstance(int(ptr), QWidget)
 
 
         self.styleKwargs = {}

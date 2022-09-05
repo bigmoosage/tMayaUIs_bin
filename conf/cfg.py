@@ -1,6 +1,10 @@
 # BUILT-INS IMPORT
 import os
-from ConfigParser import ConfigParser
+
+try:
+    from ConfigParser import ConfigParser
+except:
+    from configparser import ConfigParser
 
 from tMayaUIs_bin.conf import lib_layouts
 from tMayaUIs_bin.manip import dt_colour
