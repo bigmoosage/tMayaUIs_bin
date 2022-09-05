@@ -8,6 +8,8 @@ from functools import partial
 # Maya imports
 import maya.cmds as cd
 
+from importlib import reload
+
 # Config Manipulation
 from tMayaUIs_bin.conf import cfg
 from tMayaUIs_bin.conf import cfg_UpdateLayoutLib
@@ -73,7 +75,7 @@ def preferenceGUI(parentIn, *args, **kwargs):
 
         fromList = inList
         lists = [orderTxtScroll, layoutTxtScroll]
-        toList = (str(lst) for lst in lists if lst != fromList).next()
+        toList = next(str(lst) for lst in lists if lst != fromList)
 
         # Query selected item.
         selectedItem = cd.textScrollList(fromList, q=True, si=True)
