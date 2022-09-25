@@ -1,0 +1,37 @@
+palette,row,width,value1,value2,value3,value4,value5,value6,value7,value8,value9,value10
+basic, 1, 6,#ff0000,#00ff00,#0000ff,#ffff00,#00ffff,#ff00ff
+basic, 2, 2,#ffffff,#000000
+gameBoy,1,4,#1b3030,#557868,#aac0b0,#e1f0e8
+gameBoy,2,4,#254630,#577f35,#afc433,#d8e890
+gameBoy,3,4,#393828,#7a7161,#b2a566,#e4d699
+fantasty24,1,12,#1f2408,#3c5717,#a28c19,#e9ab06,#ecd89e,#a55b10,#1e3f39,#e66824,#eab670,#a06140,#72331e,#6e400c
+fantasty24,2,12,#291d0c,#382a1b,#664c3b,#907e69,#316468,#e53700,#42230a,#4d9f9c,#941700,#34170b,#510e07,#2e0f09
+NES,1,16,#7c7c7c,#1d0fff,#1208bf,#452abf,#8e0086,#a1001c,#a10b00,#821100,#4d3000,#217800,#1c6800,#165800,#114059,#000000,#010000,#000100
+NES,2,16,#bcbcbc,#2e79fc,#265afc,#6946ff,#d000cf,#da0057,#ee3500,#db5a00,#a87b00,#38b800,#33a800,#33a83e,#2a8889,#000001,#010001,#010100
+NES,3,16,#f8f8f8,#57bdff,#6f89ff,#9779fb,#f178fb,#ef5798,#ef7753,#f59f39,#f2b700,#bef800,#6bd84b,#73f894,#4ee8d8,#787878,#000101,#010101
+NES,4,16,#fcfcfc,#ace4fd,#b9b8fa,#d6b8fa,#f4b8fa,#f2a4c0,#edd0ae,#f9e0a5,#f4d771,#daf86f,#bef8b6,#bff8d7,#56fdfd,#f6d8f9,#020101,#010201
+AAP16,1,16,#070708,#933206,#d67600,#fefe00,#60aa3d,#1e551f,#65eeba,#4589e0,#5545ad,#322222,#734431,#c68751,#fbdc47,#ffffff,#acbbbb,#565578
+AAPMicro12,1,12,#040303,#1b1618,#47416c,#6f8c4d,#e0d135,#d17f2f,#9b3c39,#4b282e,#95407f,#edd36b,#f9f5ef,#8b8fc6
+arne16,1,8,#000000,#ffffff,#9d9d9d,#d96e8b,#b62330,#483c2a,#9f6318,#e48823
+arne16,2,8,#f4e162,#a6ce00,#4c8908,#32484e,#1c2632,#1b5786,#4aa3f5,#b7dcf0
+matriax8C,1,8,#f0f0db,#f5c700,#41c835,#36a1ca,#ca3e3d,#9c6948,#726464,#111820
+pico8,1,8,#000000,#5e5750,#81759b,#c0c1c5,#fef0e7,#782853,#f4004b,#f675a6
+pico8,2,8,#a35135,#f7a000,#fbea00,#facaa6,#27854f,#48e325,#242e54,#4aacff
+pyxelDefault,1,8,#000000,#9b9b9b,#fdfdfd,#d76d89,#b4222f,#483c2a,#9d6217,#e28622
+pyxelDefault,2,8,#f2df61,#a4cc00,#4c8908,#32484e,#1c2632,#1b5786,#4aa3f5,#b5daee
+vines,1,7,#260b27,#341027,#641723,#ac2007,#eb6600,#efbf39,#fffdef
+vines,2,7,#0d1328,#09282b,#17493f,#2b8333,#66c514,#bded53,#fffdef
+vines,3,7,#1a112f,#281946,#5b1c5b,#891668,#eb5c92,#f8b488,#fffdef
+vines,4,7,#0e0930,#1c1954,#262e83,#4d5ceb,#4ec1f4,#8df2ce,#fffdef
+vines,5,7,#210c28,#2d1316,#401e1d,#703316,#a95c1a,#f1982d,#fffdef
+vines,6,7,#19102f,#241e45,#27315f,#3f5c86,#61a1c0,#9fdbd2,#fffdef
+arcadeStandard29,1,16,#f1f0ee,#f54b49,#981c2f,#f9c321,#e76b00,#edc180,#c37d4b,#913e3e,#53132e,#7ccb00,#35852b,#194b4d,#4fc5ad,#3c7e84,#7cdfff
+arcadeStandard29,2,15,#4da6ff,#3d5ae5,#2a247d,#c35cd3,#69359f,#f9aabc,#dd5cad,#17191b,#98a5ab,#5a6c7a,#2c3748,#b7a586,#7c6351,#402f2f
+dawnbringer32,1,16,#000000,#222035,#43283c,#633930,#8b5538,#d77017,#d49f62,#eac397,#f9f108,#a1e543,#74be1f,#46946d,#4e692b,#514b21,#333c39,#403f76
+dawnbringer32,2,16,#386083,#606fe4,#6d9cff,#71cde5,#cddbfd,#ffffff,#9dadb8,#847e87,#696a6a,#595652,#73428c,#a5302f,#d15661,#d17bbb,#8f9745,#876f2a
+endesga32,1,12,#dce0e7,#a4acbf,#68708c,#4f5372,#3a3a57,#26243b,#141020,#84cf55,#599b47,#366a40,#20453b,#132739
+endesga32,2,12,#16306f,#214ea5,#3083d1,#42b3f5,#67f3fd,#edd2ad,#e0ad74,#c08054,#8f5440,#5f352f,#43211e,#914226
+endesga32,3,12,#dd6f1a,#f1ab25,#f8de62,#f7969a,#e45056,#bc2a33,#731e2b,#331428,#4b2353,#7b3b88,#af5eb5,#dd8dd8
+zughy32,1,16,#452d3c,#5b3643,#76444a,#9b5a52,#ba7855,#e8a05a,#f0cc9e,#b8d529,#77aa29,#427b41,#3f5956,#302c2e,#595353,#7c7071,#9f938e,#cec6b7
+zughy32,2,16,#e1f6f5,#97ebf2,#4fcde0,#4478aa,#3c477a,#39314c,#554065,#8a478d,#c65f94,#f9aeb5,#eeb300,#ec7d00,#dd4626,#a23a39,#817095,#50546c
+mayaBrain,1,2,#efd74b,#439ea2
