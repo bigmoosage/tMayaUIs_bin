@@ -19,4 +19,8 @@ TO INSTALL:
 4. If not already installed, install pymel (the more "pythonic" port of maya.cmds by Luma Pictures)
 	for Maya 2023: https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=GUID-2AA5EFCE-53B1-46A0-8E43-4CD0B2C72FB4
 
+5.  Make Sure Maya is closed.
+    -A: IF NO userSetup.py in Scripts directory (Folder from step 3) - copy userSetup.py from distro into that folder AND YOU'RE DONE
+    -B: If userSetup.py already exists, copy text from userSetup.py provided from distro into that file and save.
+
 Load the plug-in in maya and enjoy!
