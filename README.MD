@@ -1,6 +1,6 @@
 Tom Wood 2020 - Distributed under the MIT License
 
-Small Plug-in that creates and stores UI's based on a list of pre-built layouts.
+Small Plug-in that creates and stores UI's based on a list of custom UI layouts.
 
 TO INSTALL:
 1. Unpack zip file (SKIP IF NOT USING ZIP DISTRO)
