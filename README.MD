@@ -6,7 +6,7 @@ TO INSTALL:
 1. Unpack zip file (SKIP IF NOT USING ZIP DISTRO)
 
 2. COPY tMayaUIs_PLUG.py to MAYA_PLUG_IN_PATH:
-	_MAYA_APP_DIR_\bin\plug-ins
+	_MAYA_APP_DIR_/bin/plug-ins
 
 3. COPY tMayaUIs_bin directory to a scripts directory:
 
