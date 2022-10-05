@@ -11,10 +11,10 @@ TO INSTALL:
 3. COPY tMayaUIs_bin directory to a scripts directory:
 
 	WINDOWS:
-	Users\_CURRENT_USER_\Documents\maya\_MAYA_VERSION_\scripts
+	Users/_CURRENT_USER_/Documents/maya/_MAYA_VERSION_/scripts
 
 	MAC:
-	Library\Preferences\Autodesk\maya\_MAYA_VERSION_\scripts
+	Library/Preferences/Autodesk/maya/_MAYA_VERSION_/scripts
 	
 4. If not already installed, install pymel (the more "pythonic" port of maya.cmds by Luma Pictures)
 	for Maya 2023: https://help.autodesk.com/view/MAYAUL/2023/ENU/?guid=GUID-2AA5EFCE-53B1-46A0-8E43-4CD0B2C72FB4
