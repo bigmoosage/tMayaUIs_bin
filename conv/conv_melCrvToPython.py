@@ -8,7 +8,7 @@ import re
 import inspect
 
 # My Modules
-from tomLib.objs import curves
+from objects.obj_curves import curves
 
 # Method for finding the last mel curve function
 def findmelfunction(name):

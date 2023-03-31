@@ -232,6 +232,52 @@ def parentCurve(*args):
         cd.select(cl=True)
 
 
+"""
+
+SHAPE NODE CONSOLIDATOR
+WITH ZOOM CORRECTION
+
+Function to move all shape nodes from objects
+selected under the Transform of LAST selected object.
+
+"""
+def shapeNodeConsolidator(*args):
+    # Store selected objs
+    selection = cd.ls(sl=True)
+
+    # Freeze transforms to prevent movement on run
+    for obj in selection:
+        cd.makeIdentity(obj, a=1, t=1, r=1, s=1)
+
+    # Stores final curve as parent
+    parentTransform = selection[-1]
+
+    # Stores objs to parent
+    objsToParent = selection[0:-1]
+
+    # Loop through each object
+    for obj in objsToParent:
+
+        # Shape nodes of each object
+        shapeNodes = cd.listRelatives(o, s=True)
+
+        # Loop through all shapes
+        for shape in shapeNodes:
+            # Parents the shape node under the parent's transform
+            cd.parent(shape, parentTransform, s=True, r=True)
+
+            # Delete the old empty transform
+            cd.delete(obj)
+
+            # Centre pivot on new transform
+            cd.xform(cp=True)
+
+            # Finally selects the object
+            cd.select(parentTransform)
+
+
+
+
 # parentOrder method.
 def parentOrder(op):
     s = pm.ls(sl=True, fl=True)
